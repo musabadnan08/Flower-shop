@@ -36,3 +36,14 @@ body{
     line-height: 30px; /* 166.667% */
     margin-bottom: 32px;
 }
+
+.deal-section{
+    background-color: rgba(229, 84, 115, 0.10);
+    padding: 0  450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.twofive-off{
+    color: #E55473;
+}
