@@ -1,0 +1,38 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    background-color: rgba(229, 84, 115, 0.10);
+}
+.btn-primary{
+    border: 0;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 45px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.banner{
+    padding: 0  250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .banner-pic{
+    width: 640px;
+}
+.banner-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+.banner-text{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-bottom: 32px;
+}
