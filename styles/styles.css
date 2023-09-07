@@ -1,24 +1,46 @@
+/* primary styles */
+
+
 body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
-.header{
-    background-color: rgba(229, 84, 115, 0.10);
-}
 .btn-primary{
+    background: #E55473;
+    color: #fff;
     border: 0;
     border-radius: 8px;
-    background: #E55473;
     padding: 20px 45px;
-    color: #fff;
     font-size: 20px;
+    font-weight: 600;
+}
+.section-title{
+    text-align: center;
+    color:#181818;
+    font-size: 35px;
     font-weight: 700;
 }
+.section-text{
+    text-align: center;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+/* banner styles */
+
+
+.header{
+    background-color: rgba(229, 84, 115, 0.10);
+    margin-bottom: 130px;
+}
 .banner{
-    padding: 0  250px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0  250px;
 }
 .banner .banner-pic{
     width: 640px;
@@ -31,19 +53,151 @@ body{
 }
 .banner-text{
     color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 32px;
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px; /* 166.667% */
-    margin-bottom: 32px;
+    line-height: 30px;
 }
+
+
+/* section styles */
+
+
+main .contact-section , .insta-section , .support-section , .featured-flowers{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+
+
+/* featured flowers styles */
+
+
+.featured-flowers-container{
+    background-color: #fff;
+    display: flex;
+    gap: 25px;
+}
+.flower-one{
+    border-radius: 300px 300px 0px 0px; 
+    background:  rgba(167, 33, 98, 0.15);
+    width: 460px;
+    height: 538px;
+    background-image: url("../Flower Asset/pngwing 6.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+.flower-two{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 460px;
+    height: 538px;
+    background-image: url("../Flower Asset/pngwing 5.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.flower-three{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 460px;
+    height: 538px;
+    background-image: url("../Flower Asset/pngwing 7.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+/* support section styles */
+
+
+.support-section-container{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    text-align: center;
+}
+
+
+/* deal section styles */
+
 
 .deal-section{
     background-color: rgba(229, 84, 115, 0.10);
+    margin-bottom: 130px;
     padding: 0  450px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+.deal-section-text{
+    text-align: center;
+}
 .twofive-off{
     color: #E55473;
+}
+
+
+/* insta pics styles */
+
+.insta-container{
+    text-align: center
+}
+.insta-container > img{
+    height: 320px;
+    margin: 2px;
+}
+
+
+/* contact section styles starts */
+
+
+.contact-section{
+    background-image: url("../Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    height: 449px;
+    padding: 50px;
+    text-align: center;
+}
+.contact-info input[type="email"]{
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    width: 500px;
+    height: 60px;
+}
+
+
+/* footer styles starts */
+
+
+#flower{
+    color: #E55473;
+}
+footer{
+    background-color: #111010;
+    color: #fff;
+    height: 340px;
+    padding-top: 120px;
+    text-align: center;
+    font-size: 20px;
+}
+footer>p{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+footer>span{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
